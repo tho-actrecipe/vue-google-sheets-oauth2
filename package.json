@@ -1,0 +1,29 @@
+{
+  "name": "vue-google-sheets-oauth2",
+  "version": "1.0.1",
+  "description": "Fork from vue-google-oauth2",
+  "main": "index.js",
+  "types": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tho-asterist/vue-google-sheets-oauth2.git"
+  },
+  "keywords": [
+    "vue",
+    "google",
+    "authentication",
+    "gapi",
+    "oauth2",
+    "google sheets",
+    "google drive"
+  ],
+  "author": "Tho Nguyen <tho.nguyen@asterist.com> (Asterist Inc.)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tho-asterist/vue-google-sheets-oauth2/issues"
+  },
+  "homepage": "https://github.com/tho-asterist/vue-google-sheets-oauth2#readme"
+}
