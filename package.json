@@ -1,7 +1,7 @@
 {
   "name": "vue-google-sheets-oauth2",
-  "version": "1.0.2",
-  "description": "Fork from vue-google-oauth2",
+  "version": "1.0.3",
+  "description": "Forked from vue-google-oauth2",
   "main": "index.js",
   "types": "index.ts",
   "scripts": {
@@ -17,8 +17,7 @@
     "authentication",
     "gapi",
     "oauth2",
-    "google sheets",
-    "google drive"
+    "google sheets"
   ],
   "author": "Tho Nguyen <tho.nguyen@asterist.com> (Asterist Inc.)",
   "license": "MIT",
