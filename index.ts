@@ -192,6 +192,7 @@ function installGoogleAuthPlugin(Vue: typeof _Vue, options?: any): void {
             get: () => {
                 return googleAuth;
             },
+            configurable: true
         },
     });
     googleAuth.load(GoogleAuthConfig, prompt);

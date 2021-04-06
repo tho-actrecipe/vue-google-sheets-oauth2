@@ -165,7 +165,8 @@ function installGoogleAuthPlugin(Vue, options) {
       $g_auth: {
           get: function () {
               return Vue.gAuth
-          }
+          },
+          configurable: true
       }
   })
   Vue.gAuth.load(GoogleAuthConfig, prompt)
