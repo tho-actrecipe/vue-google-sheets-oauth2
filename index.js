@@ -32,7 +32,7 @@ var googleAuth = (function () {
   }
 
   function Auth() {
-      if (!(this instanceof Auth)) 
+      if (!(this instanceof Auth))
         return new Auth()
       this.GoogleAuth = null /* window.gapi.auth2.getAuthInstance() */
       this.isAuthorized = false
@@ -40,7 +40,6 @@ var googleAuth = (function () {
       this.prompt = null
       this.isLoaded = function () {
           /* eslint-disable */
-      console.warn('isLoaded() will be deprecated. You can use "this.$gAuth.isInit"')
           return !!this.GoogleAuth
       };
 
