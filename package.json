@@ -1,9 +1,8 @@
 {
   "name": "vue-google-sheets-oauth2",
-  "version": "1.0.9",
-  "description": "Forked from vue-google-oauth2",
+  "version": "1.0.11",
+  "description": "Using the Google Identity Services authorization code model a popup dialog for user consent and callback handler to receive the authorization code from Google.",
   "main": "index.js",
-  "types": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,7 +18,7 @@
     "oauth2",
     "google sheets"
   ],
-  "author": "Tho Nguyen <tho.nguyen@asterist.com> (Asterist Inc.)",
+  "author": "Asterist Inc.",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tho-asterist/vue-google-sheets-oauth2/issues"
